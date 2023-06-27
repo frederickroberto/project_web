@@ -1,0 +1,180 @@
+p{
+    font-family: 'Hinge Font Familt', sans-serif;                                            
+    color:black;
+    font-size: 1.2rem;
+}
+
+#title {
+    background-color: #AFD3E2;
+    height: 100vh;
+    border-radius: 30px;
+    padding-top: 10%;
+}
+
+.nav-link, .navbar-brand{
+    font-family: 'Hinge Font Familt', sans-serif;                                            
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: white;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    padding-left: 2%;
+}
+
+.nav-link:hover{
+    color: #146C94;
+}
+
+.nav-item{
+    padding-left: 20px;
+}
+
+.gambar{
+    padding-left: 20px;
+    width : 70px;
+    height: 70px;
+}
+
+.my_nav{
+    background-color: #AFD3E2;
+    border-radius: 30px;
+    margin: 0% ;
+    padding: 0% ;
+    opacity: 100%;
+}
+.image{
+    border-radius: 30px;
+    width : 500px;
+    height: 400px;
+    
+}
+/* font */
+.main-name,
+ h1.bio{
+    font-family: 'Glacial Indifference', sans-serif;                                     
+    letter-spacing: 5px;
+    color:white;
+    text-align: center;
+}
+
+h3.intro-skills-title-1,
+ h3.intro-skills-title-2{
+    font-family: 'Glacial Indifference', sans-serif;                                           
+    color: #146C94;
+    text-align: center;
+}
+
+
+.main-name{
+    padding-top: 11vh;
+    font-size: 2rem;
+    line-height: 1;
+    
+}
+
+
+
+.intro-title{
+    background-color: #146C94;
+    border-radius: 30px;
+    width: 60%;
+    margin: auto auto 5%;
+}
+
+
+
+.intro-skills{
+    padding-bottom: 3%;
+}
+
+.icon{
+    padding: 20px 20px 25px 0px;
+
+}
+
+.icon-2{
+    padding-left: 20px;
+}
+.intro-skills-title-1{
+    text-align: left !important;
+}
+
+.intro-skills-title-2{
+    text-align: right !important;
+}
+
+
+/* contact */
+#contact{
+    margin: 0% 20% 5%;
+}
+.on-contact{
+    padding-top: 2%;
+    padding-bottom: 5px;
+}
+
+a.contact-a{
+    font-family: 'Glacial Indifference', sans-serif;
+    color: #AFD3E2;
+    font-size: 1.3rem;
+}
+
+a.contact-a:hover{
+    color:#146C94;
+}
+
+
+
+
+i.fa-instagram, i.fa-whatsapp, i.fa-tiktok{
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 768px){
+    #title, #contact{
+        width: 100%;
+        margin: 0 auto 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .my_nav{
+        width: 100%;
+    }
+    .navbar-brand{
+        font-size: 1rem;
+        letter-spacing: 1px;
+        padding-right: 30%;
+    }
+    .image{
+        width : 300px;
+        height: 250px;
+        margin-top: 12%;
+    }
+    #title{
+        padding-bottom: 60%;
+    }
+    .nav-link{
+        font-size: 10px;
+        padding-left: 50px;
+        padding-top: 0;
+    }
+    .main-name{
+        padding-top: 8vh;
+        padding-left: 25vh;
+        font-size: 1rem;
+        line-height: 1.5;
+        display : flex;
+        width: 100% !important;
+    }
+    
+    .intro-title, .intro-skills-title-1,.intro-skills-title-2{
+        width: 100%;
+    }
+
+    
+}
